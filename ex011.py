@@ -1,0 +1,5 @@
+print ('Calculo basico de gasto de tinta')
+y = float(input('Quantos metros de comprimento > '))
+x = float(input('Quantos metros de largura > '))
+a = (y * x)
+print (f'Sua área tem {a} M²\nConsiderando que 2M² se utiliza 1L de tinta\nPara pintar toda a área iria gastar {a/2:.2f}L de tinta ')
